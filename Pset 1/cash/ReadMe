@@ -1,7 +1,0 @@
-Cash pset
-Greedy Algorithm
-
-The main problem of this pset is to give as less coin as possible when giving out a change.
-For example, an item is 178 cent and the customer pay us 200 cent so it will be 22 cents change. We have  25 cent coin,  10 cent coin, 5 cent coin, and 1 cent coin that we can give as changes.
-the program will tell us how many coin we will give the customer
-so the output will be 4 coins, with 0 quarter, 2 dimes, 0 nickels, and 2 pennies
