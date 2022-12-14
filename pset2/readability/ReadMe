@@ -1,0 +1,10 @@
+Readability pset2 cs50
+https://cs50.harvard.edu/x/2022/psets/2/readability/
+
+Algorithm to gauge the difficulty of a text according to scholastic 
+https://www.scholastic.com/teachers/teaching-tools/collections/guided-reading-book-lists-for-every-level.html
+with the formula of index = 0.0588 * L - 0.296 * S - 15.8
+where L is the average number of letters per 100 words in the text, and S is the average number of sentences per 100 words in the text.
+So the algorithm will count how many letter, sentences, and word and use the formula above to determine the level of text
+If the resulting index number is 16 or higher (equivalent to or greater than a senior undergraduate reading level), 
+program should output "Grade 16+" instead of outputting an exact index number. If the index number is less than 1,  program should output "Before Grade 1".
