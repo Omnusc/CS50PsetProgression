@@ -1,0 +1,11 @@
+Ceaser Algorithm pset 2 cs50
+https://cs50.harvard.edu/x/2022/psets/2/caesar/
+
+Algorithm to cipher a string with a specific int key
+e.g a string of 'abcd' with key of 1 , the output will be: bcde
+1 step after the original string
+so if the key is 3 for example, abcd will become 'cdefg'.
+
+
+The algorithm will not change upper or lowercase letter, and in the case of 
+out of bound (1 step after letter 'z') the alphabeth will loop through itself so 1 step after 'z' is 'a'
