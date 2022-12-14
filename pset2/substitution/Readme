@@ -1,0 +1,8 @@
+subtitution pset2 CS50 more comfortable
+https://cs50.harvard.edu/x/2022/psets/2/substitution/
+
+Similar to ceaser, where we encrypt a sentence or string. This time the every alphabeth have their specific key,
+for example the key is 'YTNSHKVEFXRBAUQZCLWDMIPGJO', so the letter 'a' will become 'y', letter 'b' will become 't' and so on
+so in this case, the text 'hello, world' will print out 'jrssb, ybwsp'. 
+Incase of lower case or upper case, this program will follow the input so if the letter is 'hello' but the key is all capital
+the program will still prinout 'jrssb' and not 'JRSSB'
